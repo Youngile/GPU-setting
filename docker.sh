@@ -18,7 +18,7 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 sudo apt update
 
 # NVIDIA Docker 및 도커 설치
-sudo apt install -y docker-ce docker-ce-cli docker.io docker-compose-plugin nvidia-docker2
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin nvidia-docker2
 
 # Docker 데몬 시작
 sudo systemctl enable docker --now
