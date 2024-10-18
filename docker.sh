@@ -23,8 +23,5 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin 
 # Docker 데몬 시작
 sudo systemctl enable docker --now
 
-# Docker 권한 부여
-sudo usermod -aG docker user 
-sudo newgrp docker
 
 
