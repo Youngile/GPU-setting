@@ -23,6 +23,4 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin 
 # Docker 데몬 시작
 sudo systemctl enable docker --now
 
-# GPU가 잘 인식되는지 확인
-sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
 
