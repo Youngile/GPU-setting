@@ -25,6 +25,6 @@ sudo systemctl enable docker --now
 
 # Docker 권한 부여
 sudo usermod -aG docker user 
-newgrp docker
+sudo newgrp docker
 
 
