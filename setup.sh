@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo apt update
 sudo apt install -y vim git build-essential pciutils net-tools openssh-server
 
@@ -22,7 +21,7 @@ sudo chmod +x *.sh
 
 #쿠다12.2+cudnn9 설치
 ./cuda.sh
-nvcc -V
+#nvcc -V #리부팅 후 확인
 dpkg -l | grep cudnn
 
 #엔비디아도커설치
