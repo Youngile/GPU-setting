@@ -14,7 +14,7 @@ sleep 5
 #sudo ubuntu-drivers devices	생략 가능
 
 #드라이버 설치 및 확인
-sudo apt-get install -y nvidia-driver-535-server
+sudo apt-get install -y nvidia-driver-535
 
 #sh 파일 깃클론
 git clone https://github.com/Youngile/GPU-setting.git
